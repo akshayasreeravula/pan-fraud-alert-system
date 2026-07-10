@@ -1,0 +1,71 @@
+C:\Users\mohan\AppData\Local\Programs\Tesseract-OCR
+
+
+
+
+Start Backend (Terminal 1)
+
+Navigate to the backend project:
+
+cd finshield-nonuser
+
+
+Activate virtual environment:
+
+.venv\Scripts\activate
+
+
+Start FastAPI server:
+
+uvicorn backend.main:app --reload
+
+
+Backend will run at:
+
+http://127.0.0.1:8000
+
+2️⃣ Start Organization Portal (Terminal 2)
+
+Navigate to frontend:
+
+cd finshield-nonuser/frontend
+
+
+Start React server:
+
+npm run dev
+
+
+It will open at:
+
+http://localhost:5173
+
+
+This is the Company / Organization system.
+
+3️⃣ Start User Dashboard (Terminal 3)
+
+Navigate to user system:
+
+cd finshield-user
+
+
+Start React server:
+
+npm run dev
+
+
+It will open at:
+
+http://localhost:5174
+
+
+This is the PAN Owner / User system.
+
+Final Running Setup
+System	URL
+Backend API	http://127.0.0.1:8000
+
+Organization Portal	http://localhost:5173
+
+User Dashboard	http://localhost:5174
