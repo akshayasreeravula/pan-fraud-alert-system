@@ -1,0 +1,33 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+
+# Virtual environment
+
+venv/
+.env/
+
+# IDE files
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Dataset files (optional - remove if you want to upload sample data)
+
+data/*.csv
+
+# Build files
+
+dist/
+build/
